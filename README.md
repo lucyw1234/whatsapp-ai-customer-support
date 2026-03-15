@@ -48,7 +48,6 @@ During development, I solved several complex system integration issues:
 ## 🤝 Let's Connect
 I'm a digital entrepreneur building automation tools for content creators and small businesses. If you want to see how AI automation can scale your operations, let's talk!
 
-
 graph TD
     subgraph Workflow 1: The Knowledge Engine (The Feeder)
         Drive[Google Drive\nRefund_Policy.docx] --> Splitter[n8n Text Splitter]
@@ -64,3 +63,5 @@ graph TD
         Pinecone -.->|Returns Exact Facts| Tool
         Tool -->|Sends Data| Agent
     end
+
+       
