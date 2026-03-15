@@ -35,6 +35,8 @@ I engineered a two-part automated system that acts as a completely autonomous di
 ### Workflow 1: The Automated Knowledge Engine
 `Google Drive Trigger` ➡️ `Read Document` ➡️ `Text Splitter` ➡️ `Gemini Embeddings (3072 dimensions)` ➡️ `Pinecone Vector Store`
 
+
+
 ### Workflow 2: The WhatsApp AI Agent
 `WhatsApp Trigger` ➡️ `AI Agent (with Simple Memory)` ➡️ `Company_Knowledge_Base Tool (Pinecone RAG)` ➡️ `WhatsApp Output`
 
